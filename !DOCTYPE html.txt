@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute to [Name]</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Tribute to [Name]</h1>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Why I Admire [Name]</h2>
+      <p>[Write a paragraph about the admirable qualities of the person here.]</p>
+    </section>
+
+    <section class="qualities">
+      <h3>Notable Qualities</h3>
+      <ul>
+        <li>Quality 1</li>
+        <li>Quality 2</li>
+        <li>Quality 3</li>
+      </ul>
+    </section>
+
+    <section class="gallery">
+      <h3>Memorable Moments</h3>
+      <img src="image1.jpg" alt="Description of Image 1">
+      <img src="image2.jpg" alt="Description of Image 2">
+    </section>
+  </main>
+
+  <footer>
+    <p>Created with admiration and respect.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+const display = document.getElementById("display");
+const buttons = document.querySelectorAll("button");
+let displayValue = "";
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    const value = button.textContent;
+    
+    if (value === "=") {
+      // Calculate the result
+      try {
+        display.value = eval(displayValue);
+      } catch {
+        display.value = "Error";
+      }
+      displayValue = "";
+    } else if (value === "C") {
+      // Clear the display
+      displayValue = "";
+      display.value = displayValue;
+    } else {
+      // Append the button value to the display
+      displayValue += value;
+      display.value = displayValue;
+    }
+  });
+});
